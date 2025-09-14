@@ -1,0 +1,18 @@
+{
+  "name": "tool-sharer",
+  "version": "1.0.0",
+  "description": "A Node.js server to decode, store, and host shared tools from Tool Creator.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
