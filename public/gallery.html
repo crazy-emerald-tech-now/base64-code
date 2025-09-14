@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Tool Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Tool Creator Sharer</a>
+            <nav>
+                <a href="gallery.html" class="active">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="gallery-container">
+        <h1>Community Gallery</h1>
+        <p>Explore tools created by the community. Like your favorites!</p>
+        
+        <div class="gallery-controls">
+            <input type="text" id="search-bar" placeholder="Search for tools...">
+            <select id="sort-select">
+                <option value="trending">Trending</option>
+                <option value="newest">Newest</option>
+                <option value="most-liked">Most Liked</option>
+            </select>
+        </div>
+
+        <div id="gallery-grid" class="projects-grid">
+            <p class="loading">Loading gallery...</p>
+        </div>
+    </main>
+    
+    <script src="gallery.js"></script>
+</body>
+</html>
